@@ -39,7 +39,6 @@ describe('RegistrationComponent', () => {
     authService = TestBed.inject(AuthService);
     fixture.detectChanges();
     debugElement = fixture.debugElement;
-
   });
 
   fit('should create the RegistrationComponent', () => {
